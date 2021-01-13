@@ -71,7 +71,8 @@ app.put("/update/:id", async (req,res)=>{
     } catch (err) {
         
     }
-}) 
+})
+
 
 app.listen(3000,()=>{
     console.log("server berjalan di port:3000")
